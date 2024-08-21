@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js"></script>
+    <title>Weather App</title>
+</head>
+<body class="bg-light text-dark">
+    <div class="container d-flex flex-column align-items-center">
+        <div class="content text-center mt-5">
+            <h1 class="mb-4">WEATHER APP</h1>
+            <input id="input" class="form-control w-75 mx-auto" placeholder="Enter the City Name">
+        </div>
+        <div class="main-weather card mt-4 p-4 shadow text-center" style="display: none;">
+            <div id="date" class="card-subtitle text-muted mb-2">Date</div>
+            <h2 id="city" class="card-title">City</h2>
+            <h3 id="temp" class="temp display-3">Temp</h3>
+            <div id="feels-like" class="mb-3">Feels Like</div>
+            <div id="min-max" class="mb-3">Min and Max Temp</div>
+            <img id="weather-icon" class="mb-2" alt="Weather Icon" style="width: 100px;">
+            <p id="weather-type" class="lead">Weather</p>
+            <div id="pressure">Pressure</div>
+            <div id="humidity">Humidity</div>
+            <div id="sunrise">Sunrise</div>
+            <div id="sunset">Sunset</div>
+            <div id="timezone">Time Zone</div>
+        </div>
+        <div id="error-message" class="alert alert-danger mt-4 w-75 mx-auto" role="alert" style="display: none;">
+            City not found. Please try again.
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

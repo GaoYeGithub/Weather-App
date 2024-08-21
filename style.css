@@ -1,0 +1,45 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+}
+
+.main-weather .temp {
+  font-size: 3rem;
+  color: #ff4500;
+}
+
+#input {
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 0.75rem;
+}
+
+.card {
+  max-width: 500px;
+  border-radius: 15px;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+}
+
+.alert {
+  text-align: center;
+}
+
+#weather-icon {
+  width: 100px;
+}
+
+#feels-like, #min-max, #pressure, #humidity, #sunrise, #sunset, #timezone {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
